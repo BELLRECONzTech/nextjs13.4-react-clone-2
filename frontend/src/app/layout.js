@@ -1,7 +1,8 @@
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import '@/style/globals.css'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 
 
@@ -14,6 +15,8 @@ export default function RootLayout({ children }) {
   return (
     <>
     <html lang="en">
+      <head >
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <body  >
         <main>
           <Navbar />
@@ -22,7 +25,14 @@ export default function RootLayout({ children }) {
             <Footer />
             </div>
         </main>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init(
+           
+          );
+        </script>
       </body>
+      </head>
     </html>
     </>
   )
