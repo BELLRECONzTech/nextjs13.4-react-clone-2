@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-family: 'Mulish', sans-serif;
+    --scroll-behavior: smooth!important;
+    scroll-behavior: smooth!important;
+  }
+
+@layer base {
+    h1 {
+        @apply font-bold text-4xl sm:text-5xl md:text-6xl text-[#0B132A]
+    }
+
+    h2 {
+        @apply text-xl font-semibold text-[#4F5665] 
+    }
+
+    button {
+        @apply font-semibold 
+    }
+
+
+}
