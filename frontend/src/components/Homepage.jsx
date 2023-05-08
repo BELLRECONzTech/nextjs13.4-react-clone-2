@@ -3,7 +3,7 @@ import React from 'react'
 
 const Homepage = () => {
   return (
-    <div id='/' className='md:w-full h-full '>
+    <div id='/about' className='md:w-full h-full '>
       <div className='flex m-[17vh] pt-20'>
         <div className='md:max-w-[1000px] w-[1600px] md:h-[40vh] flex flex-col p-4 gap-10 '>
             <h1 className='max-w-[700px] '>Want anything to be easy with LaslesVPN.</h1>
