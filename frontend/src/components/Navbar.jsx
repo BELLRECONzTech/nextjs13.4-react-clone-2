@@ -31,7 +31,7 @@ const Navbar = () => {
 
         <div className=' flex items-center gap-10'>
             <h1 className=' cursor-pointer hover:md:underline text-[24px] text-[#0B132A]'>Sign in</h1>
-            <button className=' relative cursor-pointer border-2 px-6 py-3 border-[#F53855] rounded-[55px] text-[#F53855]'>Sign up</button>
+            <button className='cursor-pointer border-2 px-6 py-3 border-[#F53855] rounded-[55px] text-[#F53855]'>Sign up</button>
     </div>
     </div>
   )
