@@ -34,25 +34,25 @@ const Homepage = () => {
 
             <div className='border-r border-[#F53838]  items-center grid grid-cols-2 px-20  '>
                 <Image className=' m-10' 
-                src="/user.png"  
+                src="/location.png"  
                 alt=""
                 width={50}
                 height={50} />
                 <div className='pt-3'>
-                <h1 className='text-3xl text-[#0B132A]'>90+</h1>
-                <p className='text-[#4F5665]'>Users</p>
+                <h1 className='text-3xl text-[#0B132A]'>30+</h1>
+                <p className='text-[#4F5665]'>Locations</p>
                 </div>
             </div>
 
             <div className='  items-center grid grid-cols-2 px-20 '>
                 <Image className=' m-10' 
-                src="/user.png"  
+                src="/Server.png"  
                 alt=""
                 width={50}
                 height={50} />
                 <div className='pt-3'>
-                <h1 className='text-3xl text-[#0B132A]'>90+</h1>
-                <p className='text-[#4F5665]'>Users</p>
+                <h1 className='text-3xl text-[#0B132A]'>50+</h1>
+                <p className='text-[#4F5665]'>Servers</p>
                 </div>
             </div>
           </div>

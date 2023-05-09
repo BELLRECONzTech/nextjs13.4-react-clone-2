@@ -1,5 +1,7 @@
 import Features from '@/components/Features'
 import Homepage from '@/components/Homepage'
+import Pricing from '@/components/Pricing'
+import Testimonials from '@/components/Testimonials'
 import Image from 'next/image'
 
 export default function Home() {
@@ -7,6 +9,8 @@ export default function Home() {
     <main className="">
       <Homepage/>
       <Features/>
+      <Pricing />
+      <Testimonials />
     </main>
   )
 }

@@ -29,7 +29,9 @@ const Navbar = () => {
             <Link href="/#Features">
             <ul className='cursor-pointer hover:md:underline text-[#4F5665]  '>Features</ul>
             </Link>
+            <Link href="/#Pricing">
             <ul className='cursor-pointer hover:md:underline text-[#4F5665]'>Pricing</ul>
+            </Link>
             <ul className='cursor-pointer hover:md:underline text-[#4F5665]'>Testimonials</ul>
             <ul className='cursor-pointer hover:md:underline text-[#4F5665]'>Help</ul>
             </li>
