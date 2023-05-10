@@ -6,14 +6,16 @@ const Features = () => {
     <div id='Features' className='w-full h-full'>
         {/* header */}
         <div className='w-full md:max-h-28 p-8'>
-            <div className='justify-items-center items-center grid grid-rows-2' data-aos="zoom-in" data-aos-mirror="true" data-aos-duration="1000">
+            <div className='justify-items-center items-center grid grid-rows-2' data-aos="zoom-in" data-aos-mirror="true" data-aos-duration="1000"
+            data-aos-once="true">
                 <h1>Choose Your Plan</h1>
                 <p>Let's choose the package that is best for you and explore it happily and cheerfully.</p>
             </div>
         </div>
 
             {/* 3 grid */}
-            <div className='w-full h-full' data-aos="zoom-out" data-aos-mirror="true" data-aos-duration="1000">
+            <div className='w-full h-full' data-aos="zoom-out" data-aos-mirror="true" data-aos-duration="1000"
+            data-aos-once="true">
                 <div className='grid grid-cols-3 p-28 gap-10'>
                     {/* grid 1 */}
                     <div className='w-full h-full border-[2px] border-[#DDDDDD] rounded-2xl flex flex-col items-center pt-20 gap-5 transition ease-in-out hover:border-[#F53855] hover:border-[2px] duration-300'>

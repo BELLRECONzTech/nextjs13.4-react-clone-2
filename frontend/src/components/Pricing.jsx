@@ -5,12 +5,14 @@ const Pricing = () => {
   return (
     <div className='md:w-full lg:h-full'>
         {/* HEAD */}
-        <div id='Pricing' className='md:flex flex-col items-center gap-10' data-aos="zoom-in">
+        <div id='Pricing' className='md:flex flex-col items-center gap-10' data-aos="zoom-in"
+        data-aos-once="true">
             <h1>Huge Global Network of Fast VPN</h1>
             <p className='text-[#4F5665]'>See  <a className='font-bold text-[#4F5665]'> LaslesVPN </a> everywhere to make it easier for you when you move locations.</p>
         </div>
         {/* IMG MAPS */}
-        <div className='md:w-full lg:h-full   flex justify-center mt-20'data-aos="zoom-out-down">
+        <div className='md:w-full lg:h-full   flex justify-center mt-20'data-aos="zoom-out-down"
+        data-aos-once="true">
                 <Image 
                 src="/map.png" 
                 alt=""
@@ -18,7 +20,8 @@ const Pricing = () => {
                 height={1000}/>
         </div>
         {/* SPONSOR LOGO */}
-        <div className='md:w-full lg:h-full flex justify-center my-10' data-aos="flip-left" data-aos-once="false">
+        <div className='md:w-full lg:h-full flex justify-center my-10' data-aos="flip-left" data-aos-once="false"
+        data-aos-once="true">
             <Image 
             src="/Sponsored.png" 
             alt=""

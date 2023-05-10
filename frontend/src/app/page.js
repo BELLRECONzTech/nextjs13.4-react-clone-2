@@ -1,4 +1,5 @@
 import Features from '@/components/Features'
+import Helps from '@/components/Helps'
 import Homepage from '@/components/Homepage'
 import Pricing from '@/components/Pricing'
 import Testimonials from '@/components/Testimonials'
@@ -11,6 +12,7 @@ export default function Home() {
       <Features/>
       <Pricing />
       <Testimonials />
+      <Helps/>
     </main>
   )
 }

@@ -7,7 +7,7 @@ const Footer = () => {
       {/* left */}
         <div className='flex flex-col gap-5 w-[36vh] mx-60 my-20 '>
           <div className='flex items-center gap-5'>
-            <Image 
+            <Image
             src="/logo.png" 
             alt=""
             width={50}
